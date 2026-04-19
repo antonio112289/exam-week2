@@ -189,8 +189,14 @@
   .bottom-\[200px\] {
     bottom: 200px;
   }
+  .left-\[10px\] {
+    left: 10px;
+  }
   .left-\[70px\] {
     left: 70px;
+  }
+  .left-\[100px\] {
+    left: 100px;
   }
   .z-\[1\] {
     z-index: 1;
@@ -677,6 +683,11 @@
       position: absolute;
     }
   }
+  .lg\:relative {
+    @media (width >= 64rem) {
+      position: relative;
+    }
+  }
   .lg\:top-\[75px\] {
     @media (width >= 64rem) {
       top: 75px;
@@ -692,9 +703,34 @@
       right: 50px;
     }
   }
+  .lg\:left-\[-80px\] {
+    @media (width >= 64rem) {
+      left: -80px;
+    }
+  }
+  .lg\:left-\[-90px\] {
+    @media (width >= 64rem) {
+      left: -90px;
+    }
+  }
+  .lg\:left-\[-100px\] {
+    @media (width >= 64rem) {
+      left: -100px;
+    }
+  }
   .lg\:left-\[100px\] {
     @media (width >= 64rem) {
       left: 100px;
+    }
+  }
+  .lg\:left-\[1000px\] {
+    @media (width >= 64rem) {
+      left: 1000px;
+    }
+  }
+  .lg\:left-\[px\] {
+    @media (width >= 64rem) {
+      left: px;
     }
   }
   .lg\:col-span-1 {
@@ -915,6 +951,11 @@
   .lg\:pr-\[40px\] {
     @media (width >= 64rem) {
       padding-right: 40px;
+    }
+  }
+  .lg\:pr-\[100px\] {
+    @media (width >= 64rem) {
+      padding-right: 100px;
     }
   }
   .lg\:pr-\[150px\] {
